@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1 {  
+  background-image: linear-gradient(90deg, rgba(255,149,0,1) 0%, rgba(136,0,255,1) 100%);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;  
+} 
+.form-label, .tarjeta {
+  margin-bottom: 0px;
+  color: #5948CB;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.border-bottom{
+  border-color: #5948CB var(--bs-border-color)  !important;
+}
+.btn{
+  background-image: linear-gradient(90deg, rgba(255,149,0,1) 0%, rgba(136,0,255,1) 100%);
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #C33764 0%, #1D2671  51%, #C33764  100%);
+  padding: 9px 60px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 0 5px #030303;
+}
